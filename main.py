@@ -55,10 +55,10 @@ def update_range(inp, hi, lo, ges):
 
 while not guessed:
     if starting:
-        gues = guess(up, down)
+        gues = round(guess(up, down))
         starting = False
     else:
-        gues = round(guess(up, down), 2)
+        gues = round(guess(up, down))
     if up - down <= 0:
         print("no cheating, cheater")
         cheated()
