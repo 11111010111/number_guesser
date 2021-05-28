@@ -1,4 +1,3 @@
-print("")
 high = ["high", "hi", "h"]
 low = ["low", "lo", "l"]
 yes = ["yes", "mhm", "ok", "alrighy", "omg yes", "y", "yeah"]
@@ -8,6 +7,7 @@ starting = True
 gues = 1
 down = 0
 up = 100
+print("")
 print("Welcome to my number guessing game!")
 print("By: 11111010111")
 print("")
